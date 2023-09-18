@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aosmanemender/accu-weather/issues"
   },
-  "homepage": "https://github.com/aosmanemender/accu-weather#readme"
+  "homepage": "https://github.com/aosmanemender/accu-weather#readme",
+  "dependencies": {
+    "os": "^0.1.2"
+  }
 }
