@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://mylebanonguide.com/wp-content/uploads/2022/08/2870c036a42c59e7fe6d7825c1416928e0cf6ecf66ac56153b87b1833b2bab0f.jpg) ;
+    /* background-image: url(https://www.bautrip.com/images/what-to-visit/raouche-rocks-beirut.jpg ) ; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.row-weather {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    margin-top: 15px;
+}
+
+.row-weather .col {
+    /* box-shadow: 0 8px 24px rgba(16,47,96,.08) */
+    opacity: 0.7;
+}
+
+.row-weather .col sub, .row-weather .col sup {
+    font-size: x-small;
+}
+
+.row-weather .col img {
+    margin: 1rem auto;
+}
+
+.row-weather .temperature-degree, .row-weather .card-text {
+    text-align: center;
+}
+
+
+
