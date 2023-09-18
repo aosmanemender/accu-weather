@@ -1,0 +1,33 @@
+name: Run Js script
+
+on:
+  push:
+    branches:
+    - main
+
+env:
+  client_id: ${{ secrets.CLIENT_ID }}
+  
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+  
+    steps:
+      # - name: Checkout code
+        # uses: actions/checkout@v4
+          
+      - name: Setup Js
+        # run:
+          # using: 'node16'
+          # main: 'main.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      
+      - name: npm install, build, and test
+        run: |
+          node ../test.js
+          
+# npm install
+# npm run build --if-present
+# npm test
