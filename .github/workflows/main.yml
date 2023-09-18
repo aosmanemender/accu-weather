@@ -26,7 +26,7 @@ jobs:
       
       - name: npm install, build, and test
         run: |
-          node /accu-weather/test.js
+          node accu-weather/test.js
           
 # npm install
 # npm run build --if-present
