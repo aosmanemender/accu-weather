@@ -13,13 +13,16 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v1
+      # - name: Checkout code
+        # uses: actions/checkout@v1
           
       - name: Setup Js
-        uses: actions/setup-node@v1
+        # run:
+          # using: 'node16'
+          # main: 'main.js'
+        uses: actions/setup-node@v16
         with:
-          node-version: '14'
+          node-version: '16'
       
       - name: npm install, build, and test
         run: |
