@@ -23,12 +23,8 @@ jobs:
       
       - name: npm install, build, and test
         run:
-          node crazy
-          
-          
-        # node 'test.js'
-        # npm install
-        # node ../test.js
+          echo "from the other side"
+         # node crazy
           
           
 
