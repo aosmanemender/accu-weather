@@ -26,7 +26,7 @@ jobs:
       
       - name: npm install, build, and test
         run: |
-          node test.js
+          node test
         # npm install
         # node ../test.js
           
