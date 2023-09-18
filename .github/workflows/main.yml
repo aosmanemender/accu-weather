@@ -26,7 +26,7 @@ jobs:
       
       - name: npm install, build, and test
         run:
-          sudo node crazy
+          node crazy
           
           
         # node 'test.js'
