@@ -13,20 +13,17 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      # - name: Checkout code
-        # uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3.5.1
           
       - name: Setup Js
-        # run:
-          # using: 'node16'
-          # main: 'main.js'
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: '14'
       
       - name: npm install, build, and test
         run:
-          find /home/ -name "test.js"
+          node crazy
           
           
         # node 'test.js'
