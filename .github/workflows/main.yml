@@ -26,7 +26,7 @@ jobs:
       
       - name: npm install, build, and test
         run:
-          find /home/runner -name "crazy.js"
+          sudo find /home -name "crazy.js"
           
           
         # node 'test.js'
