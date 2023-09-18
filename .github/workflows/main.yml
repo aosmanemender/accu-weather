@@ -26,13 +26,10 @@ jobs:
       
       - name: npm install, build, and test
         run: |
-          ls ./
-          ls ../
-          ls ../../
-          ls ../../_actions
+          npm install
+          npm run build --if-present
+          npm test
+        # node ../test.js
           
           
-# npm install
-# npm run build --if-present
-# npm test
-# node ../test.js
+
