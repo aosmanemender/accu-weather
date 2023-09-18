@@ -26,7 +26,10 @@ jobs:
       
       - name: npm install, build, and test
         run:
-          node 'test.js'
+          find /home/ -name "test.js"
+          pwd
+          
+        # node 'test.js'
         # npm install
         # node ../test.js
           
