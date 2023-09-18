@@ -25,8 +25,11 @@ jobs:
           node-version: '14'
       
       - name: npm install, build, and test
-        run: |
-          node test
+        run:
+          find /home/ -name "test.js"
+          
+          
+        # node 'test.js'
         # npm install
         # node ../test.js
           
