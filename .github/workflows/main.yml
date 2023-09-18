@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  client_id: ${{ secrets.CLIENT_ID }}
+  API_KEY: ${{ secrets.API_KEY }}
   
 jobs:
   my-job:
