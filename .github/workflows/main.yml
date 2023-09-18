@@ -20,7 +20,8 @@ jobs:
         # run:
           # using: 'node16'
           # main: 'main.js'
-        uses: actions/setup-node@v1
+        # uses: actions/setup-node@v1
+        uses: actions/node@14
         with:
           node-version: '14'
       
