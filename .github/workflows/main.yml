@@ -20,15 +20,14 @@ jobs:
         # run:
           # using: 'node16'
           # main: 'main.js'
-        # uses: actions/setup-node@v1
-        # uses: actions/node@14
+        uses: actions/setup-node@v1
         with:
           node-version: '14'
       
       - name: npm install, build, and test
         run: |
-          # npm install
-          # npm run build --if-present
-          # npm test
+          npm install
+          npm run build --if-present
+          npm test
           node test.js
           
