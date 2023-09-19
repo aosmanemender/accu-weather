@@ -1,6 +1,6 @@
-const locationKey = 228603; // fill into location key
+const locationKey = 228603;
 const baseUrl = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}`;
-const apiKey = process.env.API_KEY; // fill into api key
+const apiKey = "MGOj2G95SX0mVPD3cIxNQixJEaufiCNL";
 const months = [
   "January",
   "February",
