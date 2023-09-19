@@ -1,5 +1,5 @@
 const locationKey = 228603;
-const baseUrl = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}`;
+const baseUrl = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}`;
 const apiKey = "MGOj2G95SX0mVPD3cIxNQixJEaufiCNL";
 const months = [
   "January",
@@ -44,7 +44,7 @@ let content = `
 
 getCityName = () => {
   fetch(
-    `http://dataservice.accuweather.com/locations/v1/${locationKey}?apikey=${apiKey}&language=en-us&details=true`
+    `https://dataservice.accuweather.com/locations/v1/${locationKey}?apikey=${apiKey}&language=en-us&details=true`
   )
     .then((res) => res.json())
     .then((data) => {
